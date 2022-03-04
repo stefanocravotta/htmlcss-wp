@@ -1,0 +1,86 @@
+
+/* GENERAL */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  max-width: 1500px;
+  min-width: 600px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header-top{
+  margin-bottom: 30px;
+}
+
+.header-top img{
+  width: 150px;
+  padding-right: 20px;
+  border-right: 1px solid rgb(242, 242, 242);
+}
+
+.jumbotron{
+  height: 300px;
+  background-color: yellowgreen;
+  margin-bottom: 30px;
+}
+
+
+/* MAIN */
+
+main .box{
+height: 500px;
+background-color: rgb(24, 137, 252);
+margin-bottom: 10px;
+}
+
+.main-top{
+  height: 19%;
+  background-color: rgb(172, 207, 230);
+}
+
+.col{
+  float: left;
+  background-color: rgb(172, 207, 230);
+  height: 76%;
+
+}
+.col-left{
+  width: 28%;
+  margin: 1% 1% 1% 0;
+
+}
+
+.col-center{
+  width: 40%;
+  margin: 1% 1% 1% 1%;
+
+}
+
+
+.col-right{
+  width: 28%;
+  margin: 1% 0 1% 1%;
+
+}
+
+
+/* FOOTER */
+
+footer.container{
+height: 50px;
+background-color: purple;
+}
