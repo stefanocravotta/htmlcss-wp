@@ -20,7 +20,7 @@ body{
 
 .container{
   width: 80%;
-  max-width: 1500px;
+  max-width: 1300px;
   min-width: 600px;
   margin: 0 auto;
 }
@@ -30,6 +30,8 @@ body{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+
 
 .img-size{
   background-size: cover;
@@ -107,7 +109,7 @@ ul li a:hover{
 
 .jumbotron .text{
   max-width: 60%;
-  padding-top: 30%;
+  padding-top: 25%;
   padding-left: 5%;
   color: white;
 }
